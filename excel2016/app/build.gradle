@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.jerin.excel2016"
-        minSdkVersion 14
+        minSdkVersion 15
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
@@ -30,4 +30,5 @@ dependencies {
     compile 'com.android.support:design:23.1.1'
     compile 'com.eftimoff:android-pathview:1.0.8@aar'
     compile 'com.specyci:residemenu:1.6+'
+    compile 'com.github.moondroid.coverflow:library:1.0'
 }
